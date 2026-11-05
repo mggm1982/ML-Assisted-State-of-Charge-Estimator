@@ -1,0 +1,24 @@
+Installation
+
+The launcher supports macOS and Linux with Python 3. Python 3.13 was used for
+the supplied execution. See verified_environment.txt for exact package versions.
+
+From the main project directory, run:
+
+    bash code/RUN_ML_EKF.sh
+
+The script creates code/.venv and installs libraries/requirements.txt.
+Initial installation requires an internet connection. Subsequent evaluation
+uses local model and data files.
+
+To use an existing environment with the required packages:
+
+    PYTHON_BIN="/path/to/python" bash code/RUN_ML_EKF.sh
+
+To use a complete dataset stored outside the project:
+
+    bash code/RUN_ML_EKF.sh "/path/to/Panasonic 18650PF Data"
+
+Package ranges are listed in requirements.txt. Different library versions may
+produce small numerical differences. Installed environments and caches are
+local working files and are not part of the source distribution.

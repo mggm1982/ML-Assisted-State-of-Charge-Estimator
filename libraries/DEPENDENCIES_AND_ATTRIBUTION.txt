@@ -1,0 +1,16 @@
+Dependencies and attribution
+
+NumPy and SciPy handle numerical arrays and MATLAB file input. PyTorch supplies
+the feedforward network and training operations. Matplotlib creates the figures
+and ReportLab creates the evaluation report. The dependency list also retains
+pandas, scikit-learn and joblib from the project environment.
+
+Install the packages listed in requirements.txt. Each third-party package is
+distributed under its own license; this submission does not redistribute an
+installed Python environment.
+
+Data: Phillip Kollmeyer, Panasonic 18650PF Li-ion Battery Data, Mendeley Data
+version 1 (2018), DOI 10.17632/wykht8y7tg.1.
+
+The EKF and neural residual approach uses established methods. Related work
+and dataset attribution are listed in the manuscript references.

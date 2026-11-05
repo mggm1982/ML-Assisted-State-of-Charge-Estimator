@@ -1,0 +1,9 @@
+{
+  "kind": "fnn",
+  "alpha_voltage": 0.5,
+  "beta_soc": 0.5,
+  "mean_RMSE_pp": 0.2029815,
+  "mean_EKF_RMSE_pp": 0.3572495,
+  "worst_case_harm_pp": 0.0,
+  "selection_score": 0.2029815
+}
