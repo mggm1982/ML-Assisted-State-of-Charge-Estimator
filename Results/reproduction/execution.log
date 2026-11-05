@@ -1,0 +1,47 @@
+ML + EKF evaluation started: 2026-10-28T13:54:23.662529+00:00
+Verified 16 recordings and 3 model files.
+Dataset source: complete_dataset
+test_causal_replay_finite (test_final.FinalModelChecks.test_causal_replay_finite) ... ok
+test_model_and_physics_present (test_final.FinalModelChecks.test_model_and_physics_present) ... ok
+test_zero_correction_equivalent_to_calibrated_ekf (test_final.FinalModelChecks.test_zero_correction_equivalent_to_calibrated_ekf) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.083s
+
+OK
+Raw recordings verified. Starting benchmark evaluation.
+Fresh EKF + FNN replay: 10C_HWFET
+  EKF=1.2226 pp | ML + EKF=0.7562 pp | +38.1% | 0.5 s
+Fresh EKF + FNN replay: 10C_NN
+  EKF=0.6112 pp | ML + EKF=0.3373 pp | +44.8% | 0.8 s
+Fresh EKF + FNN replay: 10C_UDDS
+  EKF=0.1424 pp | ML + EKF=0.2603 pp | -82.8% | 1.6 s
+Fresh EKF + FNN replay: 10C_US06
+  EKF=0.7900 pp | ML + EKF=0.5466 pp | +30.8% | 0.3 s
+Fresh EKF + FNN replay: 25C_US06
+  EKF=0.3667 pp | ML + EKF=0.2546 pp | +30.6% | 0.3 s
+Fresh EKF + FNN replay: 25C_HWFTa
+  EKF=0.6962 pp | ML + EKF=0.5557 pp | +20.2% | 0.6 s
+Fresh EKF + FNN replay: 25C_HWFTb
+  EKF=1.0720 pp | ML + EKF=0.9726 pp | +9.3% | 0.7 s
+Fresh EKF + FNN replay: 25C_UDDS
+  EKF=0.1684 pp | ML + EKF=0.2431 pp | -44.4% | 1.7 s
+Fresh EKF + FNN replay: 25C_LA92
+  EKF=0.3988 pp | ML + EKF=0.2990 pp | +25.0% | 1.0 s
+Fresh EKF + FNN replay: 25C_NN
+  EKF=0.3951 pp | ML + EKF=0.2907 pp | +26.4% | 0.9 s
+Rendering summary plots and full-recording time-series (up to 4000 plotted points each)...
+  Drawing featured time-series 10C_HWFET
+  Drawing featured time-series 10C_NN
+  Drawing featured time-series 10C_UDDS
+  Drawing featured time-series 25C_US06
+Drew 7 PNG plots from newly computed predictions
+
+=================================================================
+RUN COMPLETED: 8/10 recordings improved
+EKF mean RMSE: 0.586341 pp
+ML + EKF mean RMSE: 0.451611 pp
+Relative reduction: 22.98%
+Results from fresh raw-data replay at <project>/code/.evaluation-50ilcfn9/results
+=================================================================
+Completed. Metrics, figures and report are available in Results/.

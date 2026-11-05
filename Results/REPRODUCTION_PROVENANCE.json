@@ -1,0 +1,158 @@
+{
+  "generated_utc": "2026-10-28T13:54:35.596597+00:00",
+  "frozen_model_sha256": "d3f9176219d3ce07147eb399f476a79c29a7160072ec6bb442915000c2ca26e3",
+  "metadata_sha256": "e8b2fa840f4fff7de131f79610cd549a0fc31e260145d9499e0dad1bfb66b6c0",
+  "original_mat_sha256": {
+    "10C_HWFET": {
+      "file": "10degC/Drive Cycles/03-27-17_09.06 10degC_HWFET_Pan18650PF.mat",
+      "sha256": "f37d7b28acbdf8d68d63a50cd5359eb5a37ba755a939007ccd21fa276207d4cd"
+    },
+    "10C_NN": {
+      "file": "10degC/Drive Cycles/03-27-17_09.06 10degC_NN_Pan18650PF.mat",
+      "sha256": "1fdb4734379eb58b92f9a167e93b4022e9914f482ad294c4549375b88caf2125"
+    },
+    "10C_UDDS": {
+      "file": "10degC/Drive Cycles/03-27-17_09.06 10degC_UDDS_Pan18650PF.mat",
+      "sha256": "971ac1c69feeb81e1f469b6385044660df13cc200f78d204d26ef0f70a7f35bb"
+    },
+    "10C_US06": {
+      "file": "10degC/Drive Cycles/03-27-17_09.06 10degC_US06_Pan18650PF.mat",
+      "sha256": "7020ba0944112eb635430ceaddbe287576d06f55ee56840ac3c30feec65af7cd"
+    },
+    "25C_US06": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_01.43 25degC_US06_Pan18650PF.mat",
+      "sha256": "c12a57f8fa2bfcb7fcd30f243781390e1567acb369da647e6bdc08885deb0ac4"
+    },
+    "25C_HWFTa": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_05.56 25degC_HWFTa_Pan18650PF.mat",
+      "sha256": "333d23b6eb7615d673190ee77d74e54f76ddbdc2b607eae6d1dd57ef6ed0e77b"
+    },
+    "25C_HWFTb": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_19.27 25degC_HWFTb_Pan18650PF.mat",
+      "sha256": "ecb2fe03608f26ea03b3d8520f86ad1eb51f7d358a97b290467afebc885af325"
+    },
+    "25C_UDDS": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_00.29 25degC_UDDS_Pan18650PF.mat",
+      "sha256": "cb9d830727474c17a8eb624bfd16bbf1f4c306c8d32f831ed58ccdb820f0376a"
+    },
+    "25C_LA92": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_09.38 25degC_LA92_Pan18650PF.mat",
+      "sha256": "808e837526a8c319b9ea5c63466205de900eab6d708445318e9db0a082fe6f31"
+    },
+    "25C_NN": {
+      "file": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_16.27 25degC_NN_Pan18650PF.mat",
+      "sha256": "972a98f2fc86307dbcf9c3c9300ff7650bb6bb25943c245d789bce09e889630c"
+    }
+  },
+  "python_version": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "numpy_version": "2.5.4",
+  "torch_version": "2.14.1",
+  "scipy_version": "1.18.1",
+  "correction_alpha_voltage": 0.5,
+  "correction_beta_soc": 0.5,
+  "soc_reference": "derived from tester Ah counter and Q=2.79826 Ah, initialized at 100%",
+  "evaluation": "10 previously observed benchmarks, one Panasonic cell; not independent cross-cell proof",
+  "note": "Metrics and figures were calculated from the predictions produced by this execution.",
+  "model_name": "ML + EKF",
+  "verified_inputs": [
+    {
+      "run": "10C_HWFET",
+      "path": "10degC/Drive Cycles/03-27-17_09.06 10degC_HWFET_Pan18650PF.mat",
+      "sha256": "f37d7b28acbdf8d68d63a50cd5359eb5a37ba755a939007ccd21fa276207d4cd"
+    },
+    {
+      "run": "10C_NN",
+      "path": "10degC/Drive Cycles/03-27-17_09.06 10degC_NN_Pan18650PF.mat",
+      "sha256": "1fdb4734379eb58b92f9a167e93b4022e9914f482ad294c4549375b88caf2125"
+    },
+    {
+      "run": "10C_UDDS",
+      "path": "10degC/Drive Cycles/03-27-17_09.06 10degC_UDDS_Pan18650PF.mat",
+      "sha256": "971ac1c69feeb81e1f469b6385044660df13cc200f78d204d26ef0f70a7f35bb"
+    },
+    {
+      "run": "10C_US06",
+      "path": "10degC/Drive Cycles/03-27-17_09.06 10degC_US06_Pan18650PF.mat",
+      "sha256": "7020ba0944112eb635430ceaddbe287576d06f55ee56840ac3c30feec65af7cd"
+    },
+    {
+      "run": "10C_Cycle_1",
+      "path": "10degC/Drive Cycles/03-28-17_12.51 10degC_Cycle_1_Pan18650PF.mat",
+      "sha256": "a90db19e0336657d808e8238e705030dd0b68aeaa4f3b5b523c13e95b074bc24"
+    },
+    {
+      "run": "10C_Cycle_3",
+      "path": "10degC/Drive Cycles/04-05-17_17.04 10degC_Cycle_3_Pan18650PF.mat",
+      "sha256": "aec8445ad51a676cc1451444cd14f9aca62d6355b2fcb1c0b54d3e61655fb769"
+    },
+    {
+      "run": "10C_Cycle_4",
+      "path": "10degC/Drive Cycles/04-05-17_22.50 10degC_Cycle_4_Pan18650PF.mat",
+      "sha256": "79a6fd2ab41341003f8c4a6451258bab7d29430fabb1b71a01298fd88edfb799"
+    },
+    {
+      "run": "25C_Cycle_2",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-19-17_03.25 25degC_Cycle_2_Pan18650PF.mat",
+      "sha256": "9e716ba5040ead435bec2c3d382c87db1b8f7580ea262e2d8613bc109e3e67ea"
+    },
+    {
+      "run": "25C_Cycle_3",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-19-17_09.07 25degC_Cycle_3_Pan18650PF.mat",
+      "sha256": "e7623286ed0f3269021141e2efdba95eb648a68e725d2c63520ce693623511fb"
+    },
+    {
+      "run": "25C_Cycle_4",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-19-17_14.31 25degC_Cycle_4_Pan18650PF.mat",
+      "sha256": "5623114bb567a4afd9ffc5167a8d3961682d5d332030d070e735659c18082895"
+    },
+    {
+      "run": "25C_US06",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_01.43 25degC_US06_Pan18650PF.mat",
+      "sha256": "c12a57f8fa2bfcb7fcd30f243781390e1567acb369da647e6bdc08885deb0ac4"
+    },
+    {
+      "run": "25C_HWFTa",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_05.56 25degC_HWFTa_Pan18650PF.mat",
+      "sha256": "333d23b6eb7615d673190ee77d74e54f76ddbdc2b607eae6d1dd57ef6ed0e77b"
+    },
+    {
+      "run": "25C_HWFTb",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-20-17_19.27 25degC_HWFTb_Pan18650PF.mat",
+      "sha256": "ecb2fe03608f26ea03b3d8520f86ad1eb51f7d358a97b290467afebc885af325"
+    },
+    {
+      "run": "25C_UDDS",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_00.29 25degC_UDDS_Pan18650PF.mat",
+      "sha256": "cb9d830727474c17a8eb624bfd16bbf1f4c306c8d32f831ed58ccdb820f0376a"
+    },
+    {
+      "run": "25C_LA92",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_09.38 25degC_LA92_Pan18650PF.mat",
+      "sha256": "808e837526a8c319b9ea5c63466205de900eab6d708445318e9db0a082fe6f31"
+    },
+    {
+      "run": "25C_NN",
+      "path": "Panasonic 18650PF Data/25degC/Drive cycles/03-21-17_16.27 25degC_NN_Pan18650PF.mat",
+      "sha256": "972a98f2fc86307dbcf9c3c9300ff7650bb6bb25943c245d789bce09e889630c"
+    }
+  ],
+  "dataset_source": "complete_dataset",
+  "evaluation_sampling": "Causal one-hertz sampling",
+  "source_sha256": {
+    "build_code_archive.py": "72f6b062e2871e05061df2b5d62c8e729a4d788cb321abad894328194edee998",
+    "ml_ekf/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "ml_ekf/cli.py": "92021c09541dd3f42505d6f6259c493d58cb60f4c60f1e48c73a4bc9aa62e499",
+    "ml_ekf/core.py": "19219f7ee1626c658630721ec55d6dc79e0a1334c9da69f93e819ef0690477b5",
+    "ml_ekf/dataset.py": "1ffd59f2b05a3a171f9dc94e89fadd5652d61cde3290fb0d23c1bbca511c8d2f",
+    "ml_ekf/evaluate.py": "96f4e94180e1ea40f7c04a2a58fe12ebf147e8cf283d84956891d0981f350c1a",
+    "ml_ekf/networks.py": "995a0209ac46a3dd14213471577fd7dd5a7df8fe780a68800d814a2ba5797661",
+    "ml_ekf/reproduce_final.py": "a09adf95b5b0251d449b9d08ab930789593770f21a76f96a7a353c7d038b9938",
+    "ml_ekf/runner.py": "497872f7a5b9c5eff780e4edf3bb4afe17b06b0c4a5fd9a92651b0f9ce275c51",
+    "ml_ekf/train.py": "10064de454866d681ad924cdf3880b875941711ea30d5c73549166c2dd71a910",
+    "physics_backend/src/data.py": "7fddfa21a65e259f48b50f0f8ba456ee6e9470cdf7162d4a6caf5d6974ac3a20",
+    "physics_backend/src/physics.py": "42e858675b8891d2c520a147f1dc522fd3c587786fc994ff287f46cebaff8767",
+    "run_submission.py": "2ba07c9e99b8c9fc3cd6ed520303cfbed64d34f0b9053311bc90ffd4aaa403cb",
+    "tests/test_final.py": "0eca92dbad5fcf16b053372d7bb94faa78e8c2afd3078f3397e07d7914d08cce",
+    "verify_submission.py": "2f10493b0d78943b57f25a5b4269a159c7ceea41baf1a3a1f12454cd5394d434"
+  }
+}

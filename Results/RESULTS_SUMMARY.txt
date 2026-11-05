@@ -1,0 +1,10 @@
+ML + EKF evaluation
+
+EKF mean RMSE: 0.5863407 SOC percentage points
+ML + EKF mean RMSE: 0.4516111 SOC percentage points
+Relative reduction: 22.98%
+Recordings with lower RMSE: 8/10
+
+Both UDDS recordings have higher error with the neural correction.
+The benchmark comprises previously examined single-cell recordings.
+Reference SOC is derived from the Ah counter using 2.79826 Ah.

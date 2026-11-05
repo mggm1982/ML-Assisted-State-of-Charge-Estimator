@@ -1,0 +1,27 @@
+{
+  "model_name": "ML + EKF",
+  "all_reported_metrics_identical_to_previous_submission": true,
+  "original_and_revised_code_prediction_arrays_identical_in_same_environment": true,
+  "benchmark_recordings": 10,
+  "replay_samples_compared": 111062,
+  "maximum_absolute_difference_from_older_archived_arrays": 4.658237528348819e-09,
+  "model_and_calibration_files_unchanged": true,
+  "software_tests_passed": 3,
+  "improved_recordings": 8,
+  "ekf_mean_rmse_pp": 0.5863407,
+  "ml_ekf_mean_rmse_pp": 0.4516111,
+  "numerical_module_ast_checks": {
+    "ml_ekf/core.py": true,
+    "ml_ekf/runner.py": true,
+    "physics_backend/src/physics.py": true
+  },
+  "relocated_execution_passed": true,
+  "working_directory_independent": true,
+  "path_with_spaces_verified": true,
+  "split_folder_input_verified": true,
+  "default_panasonic_directory_verified": true,
+  "default_panasonic_test_recordings": 16,
+  "presentation_slides_visually_checked": 16,
+  "manuscript_pages_visually_checked": 5,
+  "evaluation_report_pages_visually_checked": 8
+}

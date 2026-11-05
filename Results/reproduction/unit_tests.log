@@ -1,0 +1,8 @@
+test_causal_replay_finite (test_final.FinalModelChecks.test_causal_replay_finite) ... ok
+test_model_and_physics_present (test_final.FinalModelChecks.test_model_and_physics_present) ... ok
+test_zero_correction_equivalent_to_calibrated_ekf (test_final.FinalModelChecks.test_zero_correction_equivalent_to_calibrated_ekf) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.083s
+
+OK
